@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import MovieCard from "../MovieCard/MovieCard";
-import BookingForm from "../BookingForm/BookingForm";
+
 
 const Movies = () => {
     const [movies,setMovies] = useState([]);
